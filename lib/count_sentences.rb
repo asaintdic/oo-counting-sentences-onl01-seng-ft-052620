@@ -8,7 +8,6 @@ class String
 
   def question?
     self.end_with?("?")
-
   end
 
   def exclamation?
@@ -20,4 +19,4 @@ class String
     sentences.count
   end 
 
-  end
+end
